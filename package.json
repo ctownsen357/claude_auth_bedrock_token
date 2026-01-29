@@ -1,0 +1,13 @@
+{
+  "name": "bedrock-token-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Utilities for refreshing AWS Bedrock bearer tokens",
+  "scripts": {
+    "bedrock:token": "node ./scripts/generate-bedrock-token.mjs"
+  },
+  "dependencies": {
+    "@aws/bedrock-token-generator": "^1.1.0"
+  }
+}
